@@ -4,26 +4,41 @@
 
     <!-- A propos -->
     <section class="about" id="about">
-        <div data-aos="fade-up" data-aos-duration="1500">
-            <h2>Quelques <strong>mots</strong> sur moi</h2>
-            <div class="text">
-                <p>Après l'obtention de mon <strong>baccalauréat ES</strong> j'ai décidée de faire un <strong>BTS Commerce International</strong> a cause de mon appétence pour les langues étrangères.
-                    J'ai par la suite, fait un <strong>Bachelor en Marketing de Mode & Luxe</strong> où 'jai eu l'occasion de faire un stage chez l'Agence LUM en tant que <strong>Designer Web & Community Manager</strong>. Durant ce stage j'ai eu la change de découvrir l'univers de la création de site internet. Voulant en savoir plus et continuer dans le secteur j'ai choisis de réorienter.
-                    Ainsi je suis actuellement en <strong>Bachelor Développement Web</strong> a Digital Campus et en alternance entant que <strong>Designer Web</strong> chez Vistalid.
-                    Consciente de mon "retard", je me forme sur la plateforme "freecodecamp" pour pratiquer et acquérir de l'expérience en dehors de ma formation. </p>
-                <a href="#projects"><button>En savoir plus</button></a>
+        <h2>Aurore<strong> Enoch</strong></h2>
+        <div class="row" data-aos="fade-up" data-aos-duration="1500">
+
+            <div>
+                <img class="columns" src="../assets/images/computer_background.jpg">
+            </div>
+            <div class="columns">
+
+                <div class="text">
+                    <h3>Qui suis-je ?</h3>
+                    <p>Après l'obtention de mon <strong>baccalauréat ES</strong>, j'ai décidé de faire un <strong>BTS Commerce International</strong> à cause de mon appétence pour les langues étrangères.
+                        J'ai par la suite, fait un <strong>Bachelor en Marketing de Mode & Luxe</strong> où j'ai eu l'occasion de faire un stage chez l'Agence LUM en tant que <strong>Designer Web & Community Manager</strong>. Durant ce stage, j'ai eu la chance de découvrir l'univers de la création de site internet. Voulant en savoir plus et continuer dans le secteur, j'ai choisi de me réorienter.
+                        Ainsi, je suis actuellement en <strong>Bachelor Développement Web</strong> à Digital Campus et en alternance en tant que <strong>Designer Web</strong> chez Vistalid.
+                        Consciente de mon "retard", je me forme sur la plateforme "freecodecamp" pour pratiquer et acquérir de l'expérience en dehors de ma formation. </p>
+                    <a href="#projects"><button>En savoir plus</button></a>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Projets -->
     <SectionProjects :projects="projects"></SectionProjects>
-    <!-- Compétences -->
 
-    <!-- <SectionSkills :datas="accordionDatas"></SectionSkills> -->
-    <SectionSkillsRotate>
+    <!-- Compétences -->
+    <section class="skill" id="skills">
         <div data-aos="fade-up" data-aos-duration="1500"></div>
-    </SectionSkillsRotate>
+        <div>
+            <marquee width="100%" behavior="scroll" direction="left" scrollamount="8"> - HTML - CSS - SCSS - JS - Vue.js - React.js - Symfony - WordPress - Github - Suite Adobe - Canva - </marquee>
+        </div>
+    </section>
+    <!-- <SectionSkills :datas="accordionDatas"></SectionSkills> -->
+
+    <!-- <SectionSkillsRotate>
+        <div data-aos="fade-up" data-aos-duration="1500"></div>
+    </SectionSkillsRotate> -->
 
     <!-- Formations  -->
     <section class="section_formation">
@@ -112,7 +127,7 @@
         </div>
     </section>
     <!-- Certification -->
-    <section class="certifications">
+    <!-- <section class="certifications">
         <div data-aos="fade-up" data-aos-duration="1500">
             <h2>Nouvelles <strong>certifications</strong></h2>
             <div class="row">
@@ -127,46 +142,46 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Experience -->
     <section class="experiences" id="experiences">
         <div data-aos="fade-up" data-aos-duration="1500">
             <h2><strong>Experience</strong> Professionneles</h2>
             <div class="row">
                 <div class="columns">
-                    <img src="@/assets/images/vistalid.png"><br>
+                    <p class="logo">Vistalid</p>
                     <span>Septembre 2022 à Octobre 2023 </span><br>
                     <span>1 an</span>
                     <p>Webdesigner</p>
-                    <p>Vistalid, Bègles</p>
+                    <p>Bègles</p>
                 </div>
                 <div class="columns">
-                    <img src="@/assets/images/agence_LUM.png"><br>
+                    <p class="logo">Agence LUM</p>
                     <span>Avril à Juillet 2022</span><br>
                     <span>4 mois</span>
                     <p>Webdesigner & Community Manager</p>
-                    <p>Agence LUM, Télétravail</p>
+                    <p>Télétravail</p>
                 </div>
                 <div class="columns">
-                    <img src="@/assets/images/vistalid.png"><br>
+                    <p class="logo">Margaux Bagur </p>
                     <span>Novembre à Décembre 2020</span><br>
                     <span>1 mois</span>
                     <p>Assistante de Communication</p>
-                    <p>Margaux Bagur (secteur de la mode), Bordeaux</p>
+                    <p>Bordeaux</p>
                 </div>
                 <div class="columns">
-                    <img src="@/assets/images/chateau-de-chelivette.png"><br>
+                    <p class="logo">Château de Chelivette</p>
                     <span>2019 - 2021</span><br>
                     <span>2 ans</span>
                     <p>Assistante Export</p>
-                    <p>Château de Chelivette, St-Eulalie</p>
+                    <p>St-Eulalie</p>
                 </div>
                 <div class="columns">
-                    <img src="@/assets/images/McDonald.png"><br>
+                    <p class="logo">McDonald's</p>
                     <span>été 2019</span><br>
                     <span>2 mois</span>
                     <p>Employée Polyvalente</p>
-                    <p>McDonald's, Arcachon</p>
+                    <p>Arcachon</p>
                 </div>
             </div>
         </div>
@@ -184,7 +199,7 @@ import SectionProjects from '@/components/SectionProjects.vue'
 // import SectionSkills from '@/components/SectionSkills.vue'
 import HomeHero from '@/components/HomeHero.vue'
 import SectionContact from '@/components/SectionContact.vue'
-import SectionSkillsRotate from '@/components/SectionSkillsRotate.vue'
+// import SectionSkillsRotate from '@/components/SectionSkillsRotate.vue'
 import AOS from 'aos'
 
 export default {
@@ -194,7 +209,7 @@ export default {
         SectionProjects,
         // SectionSkills,
         SectionContact,
-        SectionSkillsRotate,
+        // SectionSkillsRotate,
     },
 
     mounted() {
@@ -268,7 +283,4 @@ window.addEventListener("DOMContentLoaded", function () {
 })
 </script>
 
-<style>
-@import '@/assets/css/styles.css';
-@import 'aos/dist/aos.css';
-</style>
+

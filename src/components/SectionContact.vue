@@ -27,7 +27,7 @@ export default {
     margin: 2em 5em;
     backdrop-filter: blur(5px);
     border-radius: 0px;
-    border: 1px solid var(--font-color);
+    border: 1px dashed var(--font-color);
     /* background: url(../assets/images/computer_background.jpg);
   background-size: cover!important;   */
 }

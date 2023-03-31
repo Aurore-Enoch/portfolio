@@ -7,11 +7,11 @@
     </div>
     <nav class="nav-content" v-bind:class="showMobileMenu ? 'open-menu' : 'closed-menu'">
         <ul class="nav-items">
-            <li v-bind:class="$route.fullPath === '/' ? 'nav-items-active' : ''">
+            <!-- <li v-bind:class="$route.fullPath === '/' ? 'nav-items-active' : ''">
                 <router-link to="/">
                     <span>Accueil</span>
                 </router-link>
-            </li>
+            </li> -->
 
             <div v-for="(link, index) in links" v-bind:key="index">
                 <li v-bind:class="$route.fullPath === '/' + link.ancre ? 'nav-items-active' : ''" v-if="$route.fullPath !== '/contact'">
@@ -50,6 +50,10 @@ export default {
             },
             showMobileMenu: false,
             links: [{
+                    ancre: '/',
+                    name: 'Accueil'
+                },
+                {
                     ancre: '#about',
                     name: 'A propos'
                 },
@@ -207,6 +211,7 @@ a {
     border: 1px solid var(--font-color);
     color: white;
     padding: 0.3em 1.5em;
+    font-weight: bold;
 }
 
 i {

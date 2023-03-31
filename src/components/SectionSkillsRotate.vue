@@ -189,7 +189,7 @@ export default {
     position: absolute;
     height: 50px;
     width: 200px;
-    border-radius: 12px;
+    border-radius: 0px;
     box-sizing: border-box;
     text-align: center;
     font-family: Times, serif;
@@ -201,7 +201,7 @@ export default {
 
 .plane img {
     vertical-align: middle;
-    border-radius: 12px;
+    border-radius: 0px;
     border: 1px solid var(--font-color);
     opacity: 0.7;
     box-shadow: 5px 5px 15px 0px var(--primary-color);

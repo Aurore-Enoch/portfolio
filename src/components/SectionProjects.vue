@@ -8,11 +8,11 @@
                     <img class="principal" :src="project.image" alt="Project">
                     <div class="columns">
                         <h3>{{ project.title }}</h3>
+                        <h5 class="languages">{{project.languages}}</h5>
                         <p>{{ project.description }}</p>
                         <a :href="project.gitlink"><img :src="project.giticon"></a>
                         <a :href="project.weblink"><img :src="project.webicon"></a>
                         <a :href="project.weblinks"><img :src="project.webicons"></a>
-
                     </div>
                 </div>
             </div>
@@ -29,7 +29,8 @@ export default {
         return {
             projects: [{
                     title: 'Site Vitrine Wordpress',
-                    description: "Durant mon stage chez l'Agence LUM j'ai eu l'occasion de créer une dizaine de site internet sur le CMS Wordpress à l'aide de l'extension Divi. J'ai principalement réalisé des sites pour des entreprises de soins, bien-être et coiffure tel que Madana ou Les soins de Diane en n'oubliant pas de bien respecter les différentes chartes graphique",
+                    languages: "Wordpress",
+                    description: "Durant mon stage chez l'Agence LUM j'ai eu l'occasion de créer une dizaine de sites internet sur le CMS WordPress à l'aide de l'extension Divi. J'ai principalement réalisé des sites pour des entreprises de soins, bien-être et coiffure telle que Madana ou Les soins de Diane en n'oubliant pas de bien respecter les différentes chartes graphiques.",
                     image: require('@/assets/projects/site_wordpress.png'),
                     // gitlink: 'https://github.com/Aurore-Enoch',
                     // giticon: require('../assets/icons/github.svg'),
@@ -40,7 +41,8 @@ export default {
                 },
                 {
                     title: 'Site Vitrine Vistalid',
-                    description: "Durant mon alternace chez Vistalid j'ai eu l'occasion de créer des dizaines de site internet sur le CMS personnel de l'entreprise. J'ai réalisé des sites pour des entreprises de divers secteurs d'activités tel que La Ferme des Camps ou ... e en n'oubliant pas de bien respecter les différentes chartes graphique. J'utilisée quotidiennement l'HTML et le SCSS pour personnalisés les sites des clients.",
+                    languages: "HTML - SCSS",
+                    description: "Durant mon alternance chez Vistalid, j'ai eu l'occasion de créer des dizaines de sites internet sur le CMS personnel de l'entreprise. J'ai réalisé des sites pour des entreprises de divers secteurs d'activités telles que 'La chouette tricheuse' ou 'l'Auberge des tilleuls' en n'oubliant pas de bien respecter les différentes chartes graphiques. J'utilisais quotidiennement l'HTML et le SCSS pour personnaliser les sites des clients.",
                     image: require('@/assets/projects/site_vistalid.png'),
                     // gitlink: 'https://github.com/Aurore-Enoch',
                     // giticon: require('../assets/icons/github.svg'),
@@ -51,14 +53,16 @@ export default {
                 },
                 {
                     title: 'All Dev Long',
-                    description: 'Ce projet scolaire de groupe consister à développer une plateforme CMS propriétaire permettant de générer une landing page en fonction des besoins d’un client. Nous avons utilisée le framework Symfony pour développer la platforme.',
+                    languages: "SCSS - Symfony",
+                    description: 'Ce projet scolaire de groupe consisté à développer une plateforme CMS propriétaire permettant de générer une landing page en fonction des besoins d’un client. Nous avons utilisé le framework Symfony pour développer la plateforme.',
                     image: require('@/assets/projects/site_AllDevLong.png'),
                     gitlink: 'https://github.com/Aurore-Enoch',
                     giticon: require('@/assets/icons/github.svg'),
                 },
                 {
                     title: 'Decathlon Caperlan',
-                    description: "Dans le cadre des Grand Projets du Digital Campus j'ai participé à la refonte du site de Decathlon Caperlan. Nous avons utilisé la librairie React ainsi que l'SCSS pour dynamiser le site.",
+                    languages: "React - SCSS",
+                    description: "Dans le cadre des Grand Projets du Digital Campus, j'ai participé à la refonte du site de Decathlon Caperlan. Nous avons utilisé la librairie React ainsi que l'SCSS pour dynamiser le site.",
                     image: require('@/assets/projects/site_caperlan.png'),
                     gitlink: 'https://github.com/Aurore-Enoch',
                     giticon: require('@/assets/icons/github.svg'),
@@ -67,21 +71,23 @@ export default {
                 },
                 {
                     title: 'Portfolio',
-                    description: "Dans le cadre de ma recherche d'alternance pour mon master j'ai décidé de développer mon portfolio. J'ai utilisé le framework Vue.js pour me familiariser avec Javascript.",
+                    languages: "Vue.js - CSS",
+                    description: "Dans le cadre de ma recherche d'alternance pour mon master, j'ai décidé de développer mon portfolio. J'ai utilisé le framework Vue.js pour me familiariser avec Javascript.",
                     image: require('@/assets/projects/site_portfolio.png'),
-                    gitlink: 'https://github.com/Aurore-Enoch',
+                    gitlink: 'https://github.com/Aurore-Enoch/portfolio',
                     giticon: require('@/assets/icons/github.svg'),
                     weblink: 'https://github.com/Aurore-Enoch',
                     webicon: require('../assets/icons/link.svg')
                 },
                 {
                     title: 'My Seasonal Outfits',
-                    description: 'My Seasonal Outfits est le projet de mon année de bachelor en développment web. Le site est un blog de conseils de mode qui comprend un quizz personnalisé pour conseiller au maximum les utilisateurs dans leurs prochains achats. Il sera développé en React pour le front et en Symfony pour le back.',
+                    languages: "React - Symfony",
+                    description: 'My Seasonal Outfits est le projet de mon année de bachelor en développement web. Le site est un blog de conseils de mode qui comprend un quiz personnalisé pour conseiller au maximum les utilisateurs dans leurs prochains achats. Il sera développé en React pour le front et en Symfony pour le back.',
                     image: require('@/assets/projects/site_MSO.png'),
-                    gitlink: 'https://github.com/Aurore-Enoch',
-                    giticon: require('@/assets/icons/github.svg'),
-                    weblink: 'https://github.com/Aurore-Enoch',
-                    webicon: require('../assets/icons/link.svg')
+                    // gitlink: 'https://github.com/Aurore-Enoch',
+                    // giticon: require('@/assets/icons/github.svg'),
+                    // weblink: 'https://github.com/Aurore-Enoch',
+                    // webicon: require('../assets/icons/link.svg')
                 },
 
             ],
@@ -106,6 +112,9 @@ export default {
 </script>
 
 <style scoped>
+.languages, .languages_2 {
+    text-align: center;
+}
 .slider {
     position: relative;
     width: 100%;

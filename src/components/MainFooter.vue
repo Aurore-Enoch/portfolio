@@ -20,7 +20,7 @@
         </div>
         <div class="main_footer_2">
             <div>
-                <h5>Mentions Légales</h5>
+                <h5><a href="./mentions-legales">Mentions Légales</a></h5>
             </div>
             <div>
                 <h5>Tout droits réservés - 2023</h5>

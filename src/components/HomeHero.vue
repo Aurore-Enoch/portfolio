@@ -123,7 +123,7 @@ export default {
 }
 
 .columns:nth-child(1) {
-    padding: 10vh;
+    padding: 10vh 0vh 10vh 10vh;
 }
 
 .columns:nth-child(2) {
@@ -138,7 +138,7 @@ export default {
 
 .circle {
     background-color: var(--background-color-secondary);
-    border-radius: 100em;
+    border-radius: 100%;
     border: 1px solid var(--font-color);
 }
 
