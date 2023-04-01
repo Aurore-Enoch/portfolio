@@ -6,4 +6,5 @@ import * as Vue from 'vue' // in Vue 3
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 import "./assets/css/styles.css";
+
 createApp(App).use(store).use(router).use(VueAxios, axios,Vue).mount('#app')

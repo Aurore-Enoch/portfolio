@@ -20,6 +20,9 @@ export default {
 </script>
 
 <style scoped>
+.section_contact {
+    min-height: fit-content;
+}
 .text {
     padding: 5em;
     text-align: center;
@@ -30,5 +33,11 @@ export default {
     border: 1px dashed var(--font-color);
     /* background: url(../assets/images/computer_background.jpg);
   background-size: cover!important;   */
+}
+
+@media (max-width: 900px) {
+    .text {
+        margin: 2em 0em;
+    }
 }
 </style>
