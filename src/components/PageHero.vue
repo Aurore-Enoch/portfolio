@@ -16,7 +16,6 @@
 </section>
 </template>
 
-  
 <script>
 export default {
     name: 'HomeHero',
@@ -24,7 +23,6 @@ export default {
 }
 </script>
 
-  
 <style scoped>
 .row {
     display: flex;

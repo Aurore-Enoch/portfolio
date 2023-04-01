@@ -56,7 +56,7 @@ export default {
                     languages: "SCSS - Symfony",
                     description: 'Ce projet scolaire de groupe consisté à développer une plateforme CMS propriétaire permettant de générer une landing page en fonction des besoins d’un client. Nous avons utilisé le framework Symfony pour développer la plateforme.',
                     image: require('@/assets/projects/site_AllDevLong.png'),
-                    gitlink: 'https://github.com/Aurore-Enoch',
+                    gitlink: 'https://github.com/Aurore-Enoch/adlink.bio',
                     giticon: require('@/assets/icons/github.svg'),
                 },
                 {
@@ -64,8 +64,6 @@ export default {
                     languages: "React - SCSS",
                     description: "Dans le cadre des Grand Projets du Digital Campus, j'ai participé à la refonte du site de Decathlon Caperlan. Nous avons utilisé la librairie React ainsi que l'SCSS pour dynamiser le site.",
                     image: require('@/assets/projects/site_caperlan.png'),
-                    gitlink: 'https://github.com/Aurore-Enoch',
-                    giticon: require('@/assets/icons/github.svg'),
                     weblink: 'https://caperlan-front-end.vercel.app/',
                     webicon: require('../assets/icons/link.svg')
                 },
@@ -112,9 +110,11 @@ export default {
 </script>
 
 <style scoped>
-.languages, .languages_2 {
+.languages,
+.languages_2 {
     text-align: center;
 }
+
 .slider {
     position: relative;
     width: 100%;
@@ -153,11 +153,6 @@ export default {
     height: auto;
     padding: 0.5em;
     border: 1px solid var(--font-color);
-    transition: 0.4s ease-in-out;
-}
-
-.slides .principal:hover {
-    transform: scale(1.3, 1.3);
     transition: 0.4s ease-in-out;
 }
 

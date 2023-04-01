@@ -25,7 +25,7 @@
             <div>
                 <h5>Tout droits réservés - 2023</h5>
             </div>
-            <div>
+            <div class="madewith">
                 <h5>Made with<img class="heart" src="../assets/icons/heart.svg"> by Aurore</h5>
             </div>
         </div>
@@ -33,18 +33,16 @@
 </section>
 </template>
 
-  
 <script>
 export default {
     name: "MainFooter",
 };
 </script>
 
-  
 <style scoped>
 /* container */
 .footer {
-    height: fit-content !important;
+    min-height: fit-content !important;
     display: block;
 }
 
@@ -58,6 +56,7 @@ export default {
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
+    align-items: center;
 }
 
 .main_footer_1 {
@@ -79,10 +78,16 @@ export default {
     position: relative;
 }
 
+.madewith {
+    top: -8px;
+    position: relative;
+}
+
 /* tablet breakpoint */
-@media (min-width:768px) {
+@media (max-width:768px) {
     .responsive-three-columns>* {
         width: calc(100% / 3);
     }
+
 }
 </style>

@@ -161,7 +161,7 @@ section {
   border-left: 1px solid var(--font-color);
   border-top: 1px solid var(--font-color);
   margin: 0 2%;
-  height: 90vh;
+  min-height: 90vh;
   display: flex;
   align-content: center;
   flex-wrap: wrap;
@@ -202,7 +202,6 @@ section:nth-child(8) {
 
 .about .text {
   background-color: var(--background-color-secondary);
-  backdrop-filter: blur(5px);
   padding: 4vh;
   text-align: center;
   border-radius: 0px;
@@ -346,8 +345,8 @@ section:nth-child(8) {
 
 /* skill test*/
 .skill {
-  height: fit-content;
   padding: 1em;
+  min-height: fit-content;
 }
 
 .skill marquee {
@@ -363,9 +362,11 @@ section:nth-child(8) {
   border-top: 1px solid var(--font-color);
   margin: 0 2%;
 }
+
 .mentions-legales .text {
   padding: 5vh;
 }
+
 .mentions-legales .hero {
   height: 50vh;
   background: url(../images/computer_background.jpg);
@@ -375,6 +376,7 @@ section:nth-child(8) {
   justify-content: center;
   margin-top: 6.5vh;
 }
+
 .mentions-legales p {
   font-size: 110%;
 }
@@ -405,8 +407,28 @@ section:nth-child(8) {
   font-size: 400%;
 }
 
-/* Responsive layout - makes a one column layout instead of a two-column layout */
+/* Responsive */
+
+@media (max-width: 1025px) {
+  h2 {
+    padding-bottom: 0.5em
+  }
+
+  p {
+    margin: 0.5em;
+    font-size: 110% !important;
+  }
+
+  .about p {
+    font-size: 110%;
+  }
+}
+
 @media (max-width: 900px) {
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
   p {
     font-size: 100% !important;
   }
@@ -422,7 +444,7 @@ section:nth-child(8) {
 
   h2 {
     text-align: center;
-    font-size: 200%;
+    font-size: 175%;
     margin: 0;
     text-transform: uppercase;
   }
@@ -458,7 +480,19 @@ section:nth-child(8) {
 
   .about .text {
     padding: 3vh;
-    margin: 3vh;
+  }
+
+  .about {
+    padding: 2vh;
+  }
+
+  .mentions-legales h2 {
+    font-size: 175%;
+  }
+
+  .mentions-legales .hero {
+    height: 25vh;
+    margin-top: 5vh;
   }
 
   .certifications .columns,
@@ -466,8 +500,12 @@ section:nth-child(8) {
     width: 85%;
   }
 
+  span {
+    font-size: 80%;
+  }
+
   .text {
-    padding: 3em;
+    padding: 3em !important;
   }
 
   .footer {

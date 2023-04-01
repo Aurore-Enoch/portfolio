@@ -6,12 +6,10 @@
     <section class="about" id="about">
         <h2>Aurore<strong> Enoch</strong></h2>
         <div class="row" data-aos="fade-up" data-aos-duration="1500">
-
             <div>
                 <img class="columns" src="../assets/images/computer_background.jpg">
             </div>
             <div class="columns">
-
                 <div class="text">
                     <h3>Qui suis-je ?</h3>
                     <p>Après l'obtention de mon <strong>baccalauréat ES</strong>, j'ai décidé de faire un <strong>BTS Commerce International</strong> à cause de mon appétence pour les langues étrangères.
@@ -146,7 +144,7 @@
     <!-- Experience -->
     <section class="experiences" id="experiences">
         <div data-aos="fade-up" data-aos-duration="1500">
-            <h2><strong>Experience</strong> Professionneles</h2>
+            <h2><strong>Expériences</strong> Professionnelles</h2>
             <div class="row">
                 <div class="columns">
                     <p class="logo">Vistalid</p>
@@ -282,5 +280,3 @@ window.addEventListener("DOMContentLoaded", function () {
     })
 })
 </script>
-
-
