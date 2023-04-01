@@ -190,7 +190,7 @@
   
   .left-arrow {
   
-      left: 20px;
+      left: 0%;
       filter: var(--filter-color);
   }
   
@@ -200,7 +200,7 @@
   
   .right-arrow {
       width: 50px;
-      right: 20px;
+      right: 0%;
       filter: var(--filter-color);
   }
   
@@ -223,6 +223,13 @@
       .slides .columns[data-v-4e2b8e02] {
           padding: 0.3em;
       }
+      .left-arrow {
+       left: 7%;
+      }
+  
+      .right-arrow {
+        right: 7%;
+      }
   }
   
   @media (max-width:768px) {
@@ -237,7 +244,7 @@
       }
   
       .slides .principal {
-          width: 60%;
+          width: 45%;
       }
   
       .slides .columns {
@@ -247,11 +254,11 @@
       }
   
       .left-arrow {
-          left: 150px;
+       left: 20%;
       }
   
       .right-arrow {
-          right: 150px;
+        right: 20%;
       }
   }
   
@@ -269,11 +276,11 @@
       }
   
       .left-arrow {
-          left: 270px;
+          left: 35%;
       }
   
       .right-arrow {
-          right: 270px;
+          right: 35%;
       }
   }
   </style>
