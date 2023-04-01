@@ -15,12 +15,12 @@
             </div>
             <div>
                 <h5>Follow Me</h5>
-                <div class="social_icons"><a href="https://www.linkedin.com/in/aurore-enoch-20b09a195/"><img src="../assets/icons/linkedin.svg"></a><a href="https://github.com/Aurore-Enoch"><img src="../assets/icons/github.svg"></a></div>
+                <div class="social_icons"><a href="https://www.linkedin.com/in/aurore-enoch-20b09a195/" target="_blank"><img src="../assets/icons/linkedin.svg"></a><a href="https://github.com/Aurore-Enoch" target="_blank"><img src="../assets/icons/github.svg"></a></div>
             </div>
         </div>
         <div class="main_footer_2">
             <div>
-                <h5><a href="./mentions-legales">Mentions Légales</a></h5>
+                <h5><a href="./mentions-legales" >Mentions Légales</a></h5>
             </div>
             <div>
                 <h5>Tout droits réservés - 2023</h5>

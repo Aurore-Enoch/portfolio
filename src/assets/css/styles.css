@@ -111,6 +111,7 @@ h2 {
   color: var(--font-color);
   margin: 0;
   padding-bottom: 1em;
+  padding-top: 0.5em;
 }
 
 h2 strong {

@@ -10,9 +10,9 @@
                           <h3>{{ project.title }}</h3>
                           <h5 class="languages">{{project.languages}}</h5>
                           <p>{{ project.description }}</p>
-                          <a :href="project.gitlink"><img :src="project.giticon"></a>
-                          <a :href="project.weblink"><img :src="project.webicon"></a>
-                          <a :href="project.weblinks"><img :src="project.webicons"></a>
+                          <a :href="project.gitlink" target="_blank"><img :src="project.giticon"></a>
+                          <a :href="project.weblink" target="_blank"><img :src="project.webicon"></a>
+                          <a :href="project.weblinks" target="_blank"><img :src="project.webicons"></a>
                       </div>
                   </div>
               </div>
@@ -207,28 +207,36 @@
   .right-arrow img {
       width: 50px;
   }
-  
+  @media (max-width:1500px) {
+  .slides .columns{
+    padding: 2em;
+  }
+}
   @media (max-width:1300px) {
       .slides .columns {
           padding: 1em;
       }
   
-      .slider[data-v-4e2b8e02] {
+      .slider {
           height: 300px;
           margin: 2em 0;
       }
   }
   
   @media (max-width:1090px) {
-      .slides .columns[data-v-4e2b8e02] {
+    .slides .principal {
+    width: 32%;
+    }
+      .slides .columns {
           padding: 0.3em;
+          width: 32%;
       }
       .left-arrow {
-       left: 7%;
+       left: 10%;
       }
   
       .right-arrow {
-        right: 7%;
+        right: 10%;
       }
   }
   
@@ -254,11 +262,11 @@
       }
   
       .left-arrow {
-       left: 20%;
+       left: 24%;
       }
   
       .right-arrow {
-        right: 20%;
+        right: 24%;
       }
   }
   

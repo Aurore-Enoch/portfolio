@@ -16,9 +16,9 @@
 
         <button><a href="/contact">Me contacter</a></button>
         <div class="social_icons">
-            <a href="https://www.linkedin.com/in/aurore-enoch-20b09a195/"><img src="../assets/icons/linkedin.svg"></a>
-            <a href="https://github.com/Aurore-Enoch"><img src="../assets/icons/github.svg"></a>
-            <a href="mailto:aurore.enoch@gmail.com"><img src="../assets/icons/mail.svg"></a>
+            <a href="https://www.linkedin.com/in/aurore-enoch-20b09a195/" target="_blank"><img src="../assets/icons/linkedin.svg"></a>
+            <a href="https://github.com/Aurore-Enoch" target="_blank"><img src="../assets/icons/github.svg"></a>
+            <a href="mailto:aurore.enoch@gmail.com" target="_blank"><img src="../assets/icons/mail.svg"></a>
         </div>
     </div>
     <div class="columns" data-aos="fade-up" data-aos-duration="1500">
