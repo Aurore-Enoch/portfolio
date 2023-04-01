@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="section_projects">
       <div data-aos="fade-up" data-aos-duration="1500">
           <h2>Quelques <strong>Projets</strong></h2>
           <div class="slider" id="projects">
@@ -111,11 +111,9 @@
   </script>
   
   <style scoped>
-
-
-
-
-
+.section_projects {
+  overflow-x: hidden;
+}
   .languages,  .languages_2 {
       text-align: center;
   }
