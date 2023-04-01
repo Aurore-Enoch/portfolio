@@ -26,7 +26,7 @@
                 <div class="switch-toggle" :class="{ 'switch-toggle-checked': userTheme === 'dark-theme' }"></div>
             </label>
 
-            <button class="download"><a href="https://ibb.co/tpQkRwy" download>Curriculum</a></button>
+            <button class="download"><a href="https://ibb.co/njqM0wp" download>Curriculum</a></button>
             <!-- <button class="download"><a href="src/assets/documents/Aurore_ENOCH_CV_Alternance.pdf"  @click.prevent="downloadItem({ url: 'src/assets/documents/Aurore_ENOCH_CV_Alternance.pdf', label: 'download'})">Curriculum </a> </button> -->
 
         </ul>
