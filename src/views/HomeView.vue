@@ -15,14 +15,14 @@
                     <p>Après l'obtention de mon <strong>baccalauréat ES</strong>, j'ai décidé de faire un <strong>BTS Commerce International</strong> à cause de mon appétence pour les langues étrangères.
                         J'ai par la suite, fait un <strong>Bachelor en Marketing de Mode & Luxe</strong> où j'ai eu l'occasion de faire un stage chez l'Agence LUM en tant que <strong>Designer Web & Community Manager</strong>. Durant ce stage, j'ai eu la chance de découvrir l'univers de la création de site internet. Voulant en savoir plus et continuer dans le secteur, j'ai choisi de me réorienter.
                         Ainsi, je suis actuellement en <strong>Bachelor Développement Web</strong> à Digital Campus et en alternance en tant que <strong>Designer Web</strong> chez Vistalid.
-                        Consciente de mon "retard", je me forme sur la plateforme "freecodecamp" pour pratiquer et acquérir de l'expérience en dehors de ma formation. </p>
+                        Pour parfaire mes compétences, je me forme sur la plateforme "freecodecamp" pour pratiquer et acquérir une expérience en dehors de ma formation. </p>
                     <a href="#projects"><button>En savoir plus</button></a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Projets -->
+    <!-- Projets -->            
     <SectionProjects :projects="projects"></SectionProjects>
 
     <!-- Compétences -->

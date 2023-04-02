@@ -5,7 +5,7 @@
         <div class="text">
             <h4>Contactez-moi</h4>
             <h3>par mail</h3>
-            <p> Si vous êtes intéressé à travailler avec moi, n'hésitez pas à me contacter en utilisant mon email ci-dessous. </p>
+            <p> À la recherche d'une alternance pour mon mastère, si vous êtes intéressé, n'hésitez pas à me contacter en utilisant mon email ci-dessous. </p>
             <a href="mailto:aurore.enoch@gmail.com"><button>Me contacter</button></a>
         </div>
     </div>
@@ -37,7 +37,7 @@ export default {
 
 @media (max-width: 900px) {
     .text {
-        margin: 2em 0em;
+        margin: 2em;
     }
 }
 </style>

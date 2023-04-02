@@ -23,7 +23,7 @@
                 <h5><a href="./mentions-legales" >Mentions Légales</a></h5>
             </div>
             <div>
-                <h5>Tout droits réservés - 2023</h5>
+                <h5>Tous droits réservés - 2023</h5>
             </div>
             <div class="madewith">
                 <h5>Made with<img class="heart" src="../assets/icons/heart.svg"> by Aurore</h5>
@@ -76,6 +76,7 @@ export default {
     top: 8px;
     padding: 0.3em;
     position: relative;
+    filter: var(--filter-color);
 }
 
 .madewith {

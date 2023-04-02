@@ -14,7 +14,7 @@
                 </div>
             </div> who likes to create things.</h1>
 
-        <button><a href="/contact">Me contacter</a></button>
+        <button><a href="#contact">Me contacter</a></button>
         <div class="social_icons">
             <a href="https://www.linkedin.com/in/aurore-enoch-20b09a195/" target="_blank"><img src="../assets/icons/linkedin.svg"></a>
             <a href="https://github.com/Aurore-Enoch" target="_blank"><img src="../assets/icons/github.svg"></a>

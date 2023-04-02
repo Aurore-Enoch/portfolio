@@ -406,6 +406,7 @@ section:nth-child(8) {
 
 .mentions-legales h1 {
   font-size: 400%;
+  text-align: center;
 }
 
 /* Responsive */
