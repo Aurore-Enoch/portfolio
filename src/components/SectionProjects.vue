@@ -46,7 +46,7 @@
                       image: require('@/assets/projects/site_vistalid.png'),
                       // gitlink: 'https://github.com/Aurore-Enoch',
                       // giticon: require('../assets/icons/github.svg'),
-                      weblink: 'https://hotel-restaurant-taverne-du-parvis.site-vistalid.fr/',
+                      weblink: 'https://les-tilleuls-lesecharmeaux.site-vistalid.fr/fr/page/restaurant',
                       webicon: require('../assets/icons/link.svg'),
                       weblinks: 'https://paysagiste-19.fr/',
                       webicons: require('../assets/icons/link.svg'),
