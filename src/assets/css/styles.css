@@ -355,10 +355,21 @@ section:nth-child(8) {
 
 .skill marquee {
   font-family: var(--font-family-1);
+  color: var(--font-color);
   font-size: 150%;
   width: 100%;
 }
+.alternance {
+  padding: 1em;
+  min-height: fit-content;
+}
 
+.alternance marquee {
+  font-family: var(--font-family-1);
+  font-size: 150%;
+  color: var(--font-color);
+  width: 100%;
+}
 /* mentions legales*/
 .mentions-legales {
   border-right: 1px solid var(--font-color);

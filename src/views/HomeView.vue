@@ -1,6 +1,9 @@
 <template>
 <div class="home">
     <HomeHero></HomeHero>
+    <section class="alternance">
+        <div><marquee scrollamount="15">- Recherche d'une Alternance en Développement Web pour Septembre 2023 dans le cadre de mon Mastère -</marquee></div>
+    </section>
 
     <!-- A propos -->
     <section class="about" id="about">
