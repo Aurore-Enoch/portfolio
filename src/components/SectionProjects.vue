@@ -46,7 +46,7 @@
                       image: require('@/assets/projects/site_vistalid.png'),
                       // gitlink: 'https://github.com/Aurore-Enoch',
                       // giticon: require('../assets/icons/github.svg'),
-                      weblink: 'https://les-tilleuls-lesecharmeaux.site-vistalid.fr',
+                      weblink: 'https://tedmeryflore-44.fr/fr',
                       webicon: require('../assets/icons/link.svg'),
                       weblinks: 'https://allo-infirmiers-blausasc.site-vistalid.fr',
                       webicons: require('../assets/icons/link.svg'),
