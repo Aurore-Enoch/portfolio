@@ -74,7 +74,7 @@
                       image: require('@/assets/projects/site_portfolio.png'),
                       gitlink: 'https://github.com/Aurore-Enoch/portfolio',
                       giticon: require('@/assets/icons/github.svg'),
-                      weblink: 'https://github.com/Aurore-Enoch',
+                      weblink: 'https://aurore-portfolio.vercel.app/',
                       webicon: require('../assets/icons/link.svg')
                   },
                   {
@@ -86,6 +86,14 @@
                       // giticon: require('@/assets/icons/github.svg'),
                       // weblink: 'https://github.com/Aurore-Enoch',
                       // webicon: require('../assets/icons/link.svg')
+                  },
+                  {
+                      title: 'Meme4Dev',
+                      languages: "Node.js - Express - Vue.js - TailwindCSS",
+                      description: "Projet scolaire de groupe consistant à créer un générateur de meme.",
+                      image: require('@/assets/projects/site_meme4dev.png'),
+                      gitlink: 'https://github.com/Aurore-Enoch/meme4dev',
+                      giticon: require('@/assets/icons/github.svg'),
                   },
   
               ],
